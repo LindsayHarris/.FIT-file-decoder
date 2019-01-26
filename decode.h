@@ -3,3 +3,4 @@
 #include    "fitStructs.h"
 
 int   readHeader( FILE *fd, fitHeader *pFitHeader );
+int   readRecord( FILE *pFD );
