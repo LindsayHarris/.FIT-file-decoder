@@ -167,7 +167,7 @@ fnProcMsg23( u_short msgNumber, DECODE_FIELD_VALUE *pdfv )
     int  ii;
     u_long manu_id;
 
-    static  bOnce = 0;
+    static  int bOnce = 0;
 
 
     char makerName[ M23_CHAR_BUF_SZ + 1 ];
